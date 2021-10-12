@@ -21,6 +21,13 @@
     "cooking-apparatus":"stove"
   },
   {
+    "id": 4,
+    "name": "Scallop Sashimi with Meyer Lemon Confit",
+    "preparation-time": 32,
+    "complexity": 3,
+    "cooking-apparatus": null
+  },
+  {
     "id":5,
     "name":"Island Duck with Mulberry Mustard",
     "preparation-time":35,
