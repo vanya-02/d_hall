@@ -5,6 +5,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
 ENV SRC_DIR /usr/bin/src/webapp/src
 COPY src/* ${SRC_DIR}/
 WORKDIR $SRC_DIR
+COPY ./src/data ./data
 EXPOSE 5050
 ENV PYTHONUNBUFFERED=1
 CMD ["python", "main.py"]
